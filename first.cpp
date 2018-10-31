@@ -11,7 +11,11 @@ using namespace std;
 int main() 
 { 
     // prints hello world 
-    cout<<"Hello World"; 
+    string name;
+    cout<<"Hello World";  
+    cout<< "What your name?";
+    cin>> name;
+    cout<< "Hello "+ name + " welcome to CPP!";		
       
     return 0; 
 } 
